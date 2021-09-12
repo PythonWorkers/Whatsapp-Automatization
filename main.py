@@ -56,8 +56,8 @@ def zaman(time_hour: int, time_min: int, wait_time: int = 20,
     time.sleep(wait_time - 2)
 
 
-# örneği zaman(13, 54) -----> Göndermek istediğiniz Zamanı girin
-zaman(14, 11)
+# örneğin zaman(13, 54) -----> Göndermek istediğiniz Zamanı girin
+# Zaman_gir = zaman(input('Saat, Dakika giriniz.Örnek format (x,x)')
 for i in range(len(data)):  # buradaki range kısmına  csv dosyasındaki kişi sayısı kadar değer girilmektedir.
     numara = pt.locateOnScreen("numaragiris.png", confidence=.6)
     x = numara[0]
