@@ -6,9 +6,9 @@ import pyautogui as pt
 from time import sleep
 from pandas.io.parsers import read_csv
 import pyperclip
-from platform import system
 
-# Whatsapın Bilgisayarınızdaki kurulu olduğu dizini gireceğiniz alan.
+
+
 
 
 data = pd.DataFrame(
@@ -28,7 +28,7 @@ def zaman(time_hour: int, time_min: int, wait_time: int = 20,
     if time_hour not in range(25) or time_min not in range(60):
         raise Warning("Hatalı Zaman Formatı")
     else:
-        os.system('C:\\Users\\caner\\AppData\\Local\\WhatsApp\\WhatsApp.exe')
+        os.system('C:\\Users\\caner\\AppData\\Local\\WhatsApp\\WhatsApp.exe') # Whatsapp'ın Bilgisayarınızdaki kurulu olduğu dizini gireceğiniz alan.
 
     if time_hour == 0:
         time_hour = 24
@@ -114,4 +114,4 @@ for i in range(len(data)):  # buradaki range kısmına  csv dosyasındaki kişi 
         pt.hotkey("enter")
 
     getmessage()
-print(f"Mesajlarınız dosyada belirtilen {int(len(data))} kadar kişiye yollanmıştır.")
+print(f"Mesajlarınız dosyada belirtilen {int(len(data))} kişiye yollanmıştır.")
