@@ -5,4 +5,4 @@ You can fill up a csv file. The program will process this file and send them wha
 
 Note: This can only work if you download official whatsapp app in your pc. But only works in dark mode. 
 
-Note_extra: Uptades will come soon about dark mode or light mode
+Note_extra: Dark Mode or Light Mode came depens on your respond to our program.
