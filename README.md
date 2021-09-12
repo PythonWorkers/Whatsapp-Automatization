@@ -5,4 +5,4 @@ You can fill up a csv file. The program will process this file and send them wha
 
 Note: This can only work if you download official whatsapp app in your pc. 
 
-Note_extra: Dark Mode or Light Mode. Now you can use at every template depens on your respond to our program.
+Note_extra: Dark Mode or Light Mode. Now you can use at every template depends on your respond to our program.
