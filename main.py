@@ -6,13 +6,10 @@ import pyautogui as pt
 from time import sleep
 from pandas.io.parsers import read_csv
 import pyperclip
-
-
-
-
+# Yollarken yapmanız gereken sadece csv dosyasını doldurup, whatsapp'ın kurulu olduğu dizini girip, zaman(x,x) şeklinde input girmeniz yeterlidir.
 
 data = pd.DataFrame(
-    read_csv("Numaralar.csv")  # csv dosyasını kendiniz için doldurunuz
+    read_csv("Numaralar.csv")  # csv dosyasını kendiniz için doldurunuz. Utf-8 koduyla doldurmamanız halinde türkçe karakter okumayabilir.
 )
 
 isim = data["İsim"]
@@ -61,7 +58,7 @@ def zaman(time_hour: int, time_min: int, wait_time: int = 20,
 
 # örneği zaman(13, 54) -----> Göndermek istediğiniz Zamanı girin
 zaman(14, 11)
-for i in range(len(data)):  # buradaki range kısmına  csv dosyasındaki kişi sayısı kadar değer giriniz
+for i in range(len(data)):  # buradaki range kısmına  csv dosyasındaki kişi sayısı kadar değer girilmektedir.
     numara = pt.locateOnScreen("numaragiris.png", confidence=.6)
     x = numara[0]
     y = numara[1]
