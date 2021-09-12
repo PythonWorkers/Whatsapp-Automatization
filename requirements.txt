@@ -5,3 +5,4 @@ pyperclip
 os
 pandas.io.parsers
 datetime
+open_cv
