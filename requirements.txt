@@ -1,0 +1,7 @@
+pandas
+pyautogui
+time
+pyperclip
+os
+pandas.io.parsers
+datetime
