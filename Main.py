@@ -26,7 +26,7 @@ def zaman(time_hour: int, time_min: int, wait_time: int = 5,
     if time_hour not in range(25) or time_min not in range(60):
         raise Warning("Hatalı Zaman Formatı")
     else:
-        os.system("C:\\Users\\caner\\AppData\\Local\\WhatsApp\\WhatsApp.exe") # Whatsapın Bilgisayarınızdaki kurulu olduğu dizini gireceğiniz alan
+        os.system("C:\\Users\\xxxx\\AppData\\Local\\WhatsApp\\WhatsApp.exe") # Default olarak whatsapp'ın bilgisayarınızdaki kurulu olduğu dizini gireceğiniz alan xxxx'e kullanıcı adınızı giriniz.
 
     if time_hour == 0:
         time_hour = 24
