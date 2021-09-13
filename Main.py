@@ -1,4 +1,4 @@
-from datetime import datetime
+
 import os
 import pandas as pd
 import time
@@ -6,7 +6,6 @@ import pyautogui as pt
 from time import sleep
 from pandas.io.parsers import read_csv
 import pyperclip
-from platform import system
 
 data = pd.DataFrame(
     read_csv("Numaralar.csv")  # csv dosyasını kendiniz için doldurunuz.
