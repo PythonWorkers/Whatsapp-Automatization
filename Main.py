@@ -14,7 +14,7 @@ data = pd.DataFrame(
 
 isim = data["İsim"]
 tel_numbers = data["Tel Numarası"]
-mesaj = data["Mesaj"]
+mesaj = str(input("Göndermek istediğiniz mesajı yazınız: "))
 
 baslamadanonce = str(input("Whatsapp'ı karanlık mod da kullanıyor musunuz?(E/H)")).upper()    
 
@@ -26,7 +26,7 @@ def zaman(time_hour: int, time_min: int, wait_time: int = 5,
     if time_hour not in range(25) or time_min not in range(60):
         raise Warning("Hatalı Zaman Formatı")
     else:
-        os.system('C:\\Users\\caner\\AppData\\Local\\WhatsApp\\WhatsApp.exe') # Whatsapın Bilgisayarınızdaki kurulu olduğu dizini gireceğiniz alan
+        os.system('C:\\Users\\xxxx\\AppData\\Local\\WhatsApp\\WhatsApp.exe') # Whatsapın Bilgisayarınızdaki kurulu olduğu dizini gireceğiniz alan
 
     if time_hour == 0:
         time_hour = 24
@@ -154,7 +154,7 @@ for i in range(len(data)):  # buradaki range kısmına  csv dosyasındaki kişi 
             pt.moveTo(x+200, y+20, duration=.5)
             pt.click()
             pyperclip.copy(
-                f"Merhaba {isim[i]}, {mesaj[i]}")
+                f"Merhaba {isim[i]}, {mesaj}")
             pt.hotkey("ctrl", "v")
             pt.hotkey("enter")
         getmessage_1()
