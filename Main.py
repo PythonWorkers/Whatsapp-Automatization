@@ -14,7 +14,7 @@ data = pd.DataFrame(
 isim = data["İsim"]
 tel_numbers = data["Tel Numarası"]
 mesaj = str(input("Göndermek istediğiniz mesajı yazınız: "))
-baslamadanonce = str(input("Whatsapp'ı karanlık modda mı kullanıyor musunuz?(E/H):")).upper()    
+baslamadanonce = str(input("Whatsapp'ı karanlık modda mı kullanıyorsunuz?(E/H):")).upper()    
 saat = int(input("Göndermek istediğiniz saat dilimini giriniz(xx): "))
 dakika = int(input("Göndermek istediğiniz dakika dilimini giriniz(x): "))
 
