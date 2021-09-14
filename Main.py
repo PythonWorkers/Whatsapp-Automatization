@@ -16,7 +16,7 @@ tel_numbers = data["Tel Numarası"]
 mesaj = str(input("Göndermek istediğiniz mesajı yazınız: "))
 baslamadanonce = str(input("Whatsapp'ı karanlık modda mı kullanıyorsunuz?(E/H):")).upper()    
 saat = int(input("Göndermek istediğiniz saat dilimini giriniz(xx): "))
-dakika = int(input("Göndermek istediğiniz dakika dilimini giriniz(x): "))
+dakika = int(input("Göndermek istediğiniz dakika dilimini giriniz(xx): "))
 
 def zaman(time_hour: int, time_min: int, wait_time: int = 5,
           ) -> None:
