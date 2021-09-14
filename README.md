@@ -1,5 +1,5 @@
 # Whatsapp-Automatization-TR Language
-An Automatizaton of Whatsapp Messages at a certain time to a certain people
+An Automatizaton of Whatsapp Messages
 
 You can fill up a csv file. The program will process this file and send them what you want to say at a certain time.
 
